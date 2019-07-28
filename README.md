@@ -3,7 +3,8 @@
 Quantitative analysis of dreams using a LIWC dictionary.
 
 # User Guide
-At the moment, the analysis script doesn't have a user interface. You need to go into the code to adapt it :)
+At the moment, the analysis script doesn't have a user interface.
+You need to go inside "dreamy.py" to adapt it & run :)
 
 Specify the file name of the dream diary you want to analyse.
 ```
@@ -14,7 +15,7 @@ This should be a txt file where each dream begins with a date (format "dd/mm/yy"
 # american date
 # mm,dd,yy = date.split('/')
 ```
-To plot the temporal development of a specific word category, change the "colname" variable:
+To plot the temporal development of a specific word category, you can change the "colname" variable:
 ```
 colname = 'affect' # other options:''function','pronoun', 'ppron','i','we','you','shehe',
 #                        'they','ipron', 'article','prep', 'auxverb', 'adverb',
