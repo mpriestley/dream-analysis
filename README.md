@@ -5,11 +5,11 @@ Quantitative analysis of dreams using a LIWC dictionary.
 # User Guide
 At the moment, the analysis script doesn't have a user interface. You need to go into the code to adapt it :)
 
-Specify the file name of the dream diary you want to analyse. This should be a txt file where each dream begins with a date (dd/mm/yy or mm/dd/yy).
+Specify the file name of the dream diary you want to analyse.
 ```
 with open ('my_dreams.txt', "r") as myfile:
 ```
-Select the appropriate date format by uncommenting it in the script later on.
+This should be a txt file where each dream begins with a date (format "dd/mm/yy" or "mm/dd/yy"). Specify the appropriate date format by uncommenting it in the script later on.
 ```
 # american date
 # mm,dd,yy = date.split('/')
