@@ -1,6 +1,14 @@
-# dream-analysis
+# Quantitative analysis of dreams
+Here is a quick summary of what the script does:
+* Takes a text file containing a collection of dreams and quantifies their contents using a LIWC dictionary. This gives the frequency of words related to categories like cognitive processes, positive/negative emotions, social interactions, sensory experiences etc.
+* Compares these scores to those derived from dreams of the general population. This makes the scores meaningful by showing which aspects of an individual's dream life are statistically different from the baselines found by researchers.
+* Graphically plots changes in the content of dreams over time. This can be used to explore the temporal development of specific themes (e.g. changes in emotional valence over several months/years)
+* Automatically extracts named entities (people, places) and plots a network of relations, where nodes represent names and links represent the occurrence of these entities together in the same dream.
 
-Quantitative analysis of dreams using a LIWC dictionary.
+I suggest having a corpus of at least 100 diary entries to work with. The repository includes an example dream diary.
+The script can be tweaked to work with a normal diary or expressive writing, where baselines from the general population can be added for comparison.
+
+
 
 # User Guide
 At the moment, the analysis script doesn't have a user interface.
