@@ -1,20 +1,21 @@
-# Quantitative analysis of dreams
-Here is a quick summary of what the script does:
-* Takes a text file containing a collection of dreams and quantifies their contents using a LIWC dictionary. This gives the frequency of words related to categories like cognitive processes, positive/negative emotions, social interactions, sensory experiences etc.
-* Compares these scores to those derived from dreams of the general population. This makes the scores meaningful by showing which aspects of an individual's dream life are statistically different from the baselines found by researchers.
-* Graphically plots changes in the content of dreams over time. This can be used to explore the temporal development of specific themes (e.g. changes in emotional valence over several months/years)
-* Automatically extracts named entities (people, places) and plots a network of relations, where nodes represent names and links represent the occurrence of these entities together in the same dream.
+# Description of tool
+This script runs quantitative analysis of an individual's dream diary. Here's what it does:
+* **Quantifies the contents of the diary** using a LIWC dictionary. This gives the frequency of words related to categories like cognitive processes, positive/negative emotions, social interactions, sensory experiences etc.
+* **Compares these scores to those derived from the general population**. This makes the scores meaningful by showing which aspects of an individual's dream life are statistically different from the baselines found by researchers.
+* **Graphically plots changes in the content of dreams over time**. This can be used to explore the temporal development of specific themes (e.g. changes in emotional valence over several months/years)
+* **Plots a network of named entities** (people, places), where nodes represent names and links represent the occurrence of these entities together in the same dream.
 
-I suggest having a corpus of at least 100 diary entries to work with. The repository includes an example dream diary.
-The script can be tweaked to work with a normal diary or expressive writing, where baselines from the general population can be added for comparison.
+I suggest having a corpus of at least 100 diary entries to work with (the repository includes an example dream diary).
+The functionality can be adapted to work on a normal diary, by adding the LIWC population baselines for expressive writing. (please email me if this would be useful to you!)
 
 
 
 # User Guide
-At the moment, the analysis script doesn't have a user interface.
-You need to go inside "dreamy.py" to adapt it & run :)
+At the moment, the analysis script doesn't have a user interface.<br/>
+You need to go inside the main script **"dreamy.py"** to adapt it & run.<br/>
 
-Specify the file name of the dream diary you want to analyse.
+I've marked the bits you can change with a #TODO tag.<br/>
+First, specify the file name of the dream diary you want to analyse.
 ```
 with open ('my_dreams.txt', "r") as myfile:
 ```
