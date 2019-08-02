@@ -49,11 +49,14 @@ select_names = dict((k, v) for k, v in name_freq.items() if v > 3) # change the 
 # threshold on how often they co-occur
 am_edgelist = am_edgelist[am_edgelist['Weight'] > float(0.3)] # change the float value, must be between 0 and 1
 ```
+# Dependencies
+Python libraries: re, datetime, pandas, numpy, networkx, plt, nltk
+
 # Acknowledgements
 SDDb dream baselines taken from [Bulkeley, K., & Graves, M. (2018). Using the LIWC program to study dreams. Dreaming, 28(1), 43](https://www.researchgate.net/publication/323646665_Using_the_LIWC_program_to_study_dreams).
 
 LIWC dictionary developed by [Pennebaker, J.W., Boyd, R.L., Jordan, K., & Blackburn, K. (2015). The development and psychometric properties of LIWC2015. Austin, TX: University of Texas at Austin](https://repositories.lib.utexas.edu/bitstream/handle/2152/31333/LIWC2015_LanguageManual.pdf).
 
-Functions for reading a LIWC dictionary come from [Sean Rife's psyLex](https://github.com/seanrife/psyLex).
+LIWC dictionary reader functions came from [Sean Rife's psyLex project](https://github.com/seanrife/psyLex).
 
 Merri's dream diary sourced from [DreamBank repository](http://www.dreambank.net/).
