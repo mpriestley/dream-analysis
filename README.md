@@ -6,7 +6,7 @@ This script runs quantitative analysis of an individual's dream diary.
 * **Plots a network of named entities** (people, places), where nodes represent names and links represent the occurrence of these entities together in the same dream.
 
 I suggest having a corpus of at least 100 diary entries to work with (the repository includes an example dream diary).
-The functionality could be adapted to work on a normal diary, by adding the LIWC population baselines for expressive writing. (let me know if this would be useful to you!)
+The functionality could be adapted to work on a normal diary, by adding the LIWC population baselines for expressive writing.
 
 
 
