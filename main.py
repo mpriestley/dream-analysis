@@ -246,7 +246,7 @@ am_edgelist = am_norm.rename_axis('Source')\
 # threshold on how often they co-occur
 # TODO
 # this can be changed
-am_edgelist = am_edgelist[am_edgelist['Weight'] > float(0.3)] # change the float value, must be between 0 and 1
+am_edgelist = am_edgelist[am_edgelist['Weight'] > float(0.6)] # change the float value, must be between 0 and 1
 
 G = nx.from_pandas_edgelist(am_edgelist,'Source','Target', edge_attr='Weight')
 # largest connected component
