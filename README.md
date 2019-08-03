@@ -14,7 +14,7 @@ The functionality could be adapted to work on a normal diary, by adding the LIWC
 At the moment, the analysis script doesn't have a user interface.<br/>
 You need to go inside the script **"main.py"** to adapt it & run.<br/>
 
-I've marked the bits you can change with a #TODO tag.<br/>
+I've marked all the bits you need to change with a #TODO tag.<br/>
 First, specify the file name of the dream diary you want to analyse.
 ```
 with open ('my_dreams.txt', "r") as myfile:
